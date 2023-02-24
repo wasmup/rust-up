@@ -4,15 +4,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'app101'",
+            "name": "Debug executable 'app102'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=app101",
-                    "--package=app101"
+                    "--bin=app102",
+                    "--package=app102"
                 ],
                 "filter": {
-                    "name": "app101",
+                    "name": "app102",
                     "kind": "bin"
                 }
             },
@@ -22,16 +22,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'app101'",
+            "name": "Debug unit tests in executable 'app102'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=app101",
-                    "--package=app101"
+                    "--bin=app102",
+                    "--package=app102"
                 ],
                 "filter": {
-                    "name": "app101",
+                    "name": "app102",
                     "kind": "bin"
                 }
             },
